@@ -26,7 +26,7 @@ def compliment(a):
     return ones,twos
 def main():
     a=input("give binary number")
-    print(type(a))
+    #print(type(a))
     res1,res2=compliment(a)
     print("ones compliment of",a,"is",res1)
     print("twos compliment of",a,"is",res2)
